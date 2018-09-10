@@ -1,0 +1,12 @@
+Notas Snake Linux
+
+Para poder compilar este programa se necesita de ncursesw, al cual sehace referecnia con la bandera
+-lncursesw, también necesitamos aclarar que usamos C11 con -lncursesw -std=c++11, para poder usar la 
+función to_string()
+
+g++ Snake.cpp -o Snake -lncursesw -std=c++11
+
+Te recomiendo que primero alargues el tamaño de la consola al tamaño deseado del juego, porque puede que al inicio sea muy pequeño.
+
+Librerias: apt install libncurses5-dev libncursesw5-dev
+
